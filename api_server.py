@@ -6,7 +6,7 @@ app = Flask(__name__)
 # Make Elasticsearch connection
 es = Elasticsearch(hosts=['http://localhost:9200'])
 
-INDEX_NAME = "compay_profiles"
+INDEX_NAME = "company_profiles"
 
 @app.route('/search', methods=['POST'])
 def search():

@@ -18,7 +18,6 @@ def merge_data(scraped_data, company_names_csv):
 
     # Merge data on domain
     merged_data = pd.merge(df_scraped, df_company_names, on='domain', how='outer')
-    print(merged_data)
     
     return merged_data
 
