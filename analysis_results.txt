@@ -1,0 +1,4 @@
+Total given websites: 998
+Total websites crawled: 463 (46.39%)
+Phone number fill rate: 55.08%
+Social media links fill rate: 53.78%
